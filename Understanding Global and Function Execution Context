@@ -1,0 +1,11 @@
+var age = 23;
+function display_age() {
+    console.log("age: " + age);
+}
+
+function change_age(newAge) {
+    age = newAge;
+}
+display_age();
+change_age(43);
+display_age();
